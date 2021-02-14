@@ -8,11 +8,12 @@
 <body id="home">
     <nav class="navbar bground" >
         <ul class="nav-list">
-            <div class="logo"><img src="img/logo.png" alt="Logo"></div>
+            <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 264 265.5"><defs><style>.cls-1{fill:#2c3d44;}.cls-2{fill:#537076;}.cls-3{fill:#ef4627;}.cls-4{fill:#f36d2d;}.cls-5{fill:#f79325;}.cls-6{fill:#231f20;}</style></defs><g id="background"><image id="logo" width="352" height="354" transform="scale(0.75)" xlink:href="D:\exam\TRAVELFAM\img\logo.png"/></g><g id="pointing"><polygon class="cls-1" points="114.51 133.8 131.74 60.09 148.46 133.8 131.74 205.74 114.51 133.8"/><polygon class="cls-2" points="131.48 72.28 117.98 132.91 131.48 194.75 124.73 132.91 131.48 72.28"/><polygon class="cls-2" points="131.48 72.28 144.94 133.8 131.74 198.36 143.42 133.51 131.48 72.28"/><ellipse class="cls-3" cx="131.48" cy="135.32" rx="5.32" ry="5.84"/><path class="cls-4" d="M176,182.57s3.68-1.79,2.79-5c0,0,2.56,7.79.14,9.74C178.88,187.32,174.56,185.06,176,182.57Z" transform="translate(-48 -47.25)"/><path class="cls-5" d="M177.8,183.84s1.2-1.62,1-2.79C178.81,181.05,180.59,186.07,177.8,183.84Z" transform="translate(-48 -47.25)"/>
+                <ellipse class="cls-6" cx="131.61" cy="135.62" rx="1" ry="1.1"/></g></svg></div>
             <li class="travelfam"><a href="#home">TRAVEL FAM</a></li>
            <li><a href="#about">ABOUT</a></li>
            <li><a href="#services">SERVICES</a></li>
-           <li><a href="#contact">CONTACT US</a></li>
+           <li><a href="contact.html">CONTACT US</a></li>
         </ul>
         <div class="rightnav">
             <input type="text" name="search" id="search">
@@ -25,10 +26,11 @@
                 <div class="firsthalf">
                     <h2 class="textbig">Want to visit Uttarakhand?</h2>
                     <p class="textsmall">You are at the correct place.<br>
-                        Here are listed some of the great locations to visit  in Uttarakhand.
+                        Here are listed some of the grat locations to visit  in Uttarakhand.
                     </p>
                          <div class="button">
                                 <button class="btn"><a href="#places">Travel Guide</a></button>
+                                <button class="btn"><a href="#ismap">See on Map</a></button>
                          </div>
                 </div>
 
@@ -120,6 +122,7 @@
                   <img class="imgfluid" src="img/nainital.jpg" alt="IMG">
               </div>
     </section>
+
     <section class="section left">
         <div class="paras">
         <p class="sectiontag bigtxt">HARIDWAR</p>
@@ -130,17 +133,14 @@
               </div>
     </section>
     <br>
-    <section class="content" id="contact">
-        <h1>Contact Us</h1>
-        <div class="form">
-            <input type="text" id="name" placeholder=" Input name">
-            <input type="number" id="mob" placeholder=" Input mobile no.">
-            <input type="email" id="mailid" placeholder=" Input Email"> 
-            <textarea name="concern" id="concern" cols="30" rows="5" placeholder="What is your concern?"></textarea>
-            <button class="btndark">SUBMIT</button>
-        </div>
-    </section>
 
+    <section class="mapcontent">
+        <h1 class="ffamily" id="ismap">Map</h1>
+        <p class="maptxt">The respective locations are shown in the map below:</p>
+    <div class="mymap"> 
+    <iframe src="https://www.google.com/maps/d/embed?mid=18hkU4NtcUDREE3EI1S6e0fqPzk3SEQEk" width="640" height="480"></iframe>
+    </div>
+</section>
     <footer class="text-footer bground" > 
         <p>
         Copyright &copy; 2021- All rights reserved.<br>
