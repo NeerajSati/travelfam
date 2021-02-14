@@ -1,155 +1,341 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>TRAVEL FAM</title>
-    <link rel = "icon" href =  "img/logo.png" 
-        type = "image/x-icon"> 
-</head>
-</head>
-<body id="home">
-    <nav class="navbar bground" >
-        <ul class="nav-list">
-            <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 264 265.5"><defs><style>.cls-1{fill:#2c3d44;}.cls-2{fill:#537076;}.cls-3{fill:#ef4627;}.cls-4{fill:#f36d2d;}.cls-5{fill:#f79325;}.cls-6{fill:#231f20;}</style></defs><g id="background"><image id="logo" width="352" height="354" transform="scale(0.75)" xlink:href="img/logo.png"/></g><g id="pointing"><polygon class="cls-1" points="114.51 133.8 131.74 60.09 148.46 133.8 131.74 205.74 114.51 133.8"/><polygon class="cls-2" points="131.48 72.28 117.98 132.91 131.48 194.75 124.73 132.91 131.48 72.28"/><polygon class="cls-2" points="131.48 72.28 144.94 133.8 131.74 198.36 143.42 133.51 131.48 72.28"/><ellipse class="cls-3" cx="131.48" cy="135.32" rx="5.32" ry="5.84"/><path class="cls-4" d="M176,182.57s3.68-1.79,2.79-5c0,0,2.56,7.79.14,9.74C178.88,187.32,174.56,185.06,176,182.57Z" transform="translate(-48 -47.25)"/><path class="cls-5" d="M177.8,183.84s1.2-1.62,1-2.79C178.81,181.05,180.59,186.07,177.8,183.84Z" transform="translate(-48 -47.25)"/>
-                <ellipse class="cls-6" cx="131.61" cy="135.62" rx="1" ry="1.1"/></g></svg></div>
-            <li class="travelfam"><a href="#home">TRAVEL FAM</a></li>
-           <li><a href="#about">ABOUT</a></li>
-           <li><a href="#services">SERVICES</a></li>
-           <li><a href="contact.html">CONTACT US</a></li>
-        </ul>
-        <div class="rightnav">
-            <input type="text" name="search" id="search">
-            <button class=" btn">Search</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>TRAVEL FAM</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <script src="script.js"></script>
+  </head>
+  <body id="home">
+    <div class="loader-svg-container" style="position: relative">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 264 265.5"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #2c3d44;
+            }
+            .cls-2 {
+              fill: #537076;
+            }
+            .cls-3 {
+              fill: #ef4627;
+            }
+            .cls-4 {
+              fill: #f36d2d;
+            }
+            .cls-5 {
+              fill: #f79325;
+            }
+            .cls-6 {
+              fill: #231f20;
+            }
+          </style>
+        </defs>
+        <g id="background">
+          <image
+            id="logo-2"
+            width="352"
+            height="354"
+            transform="scale(0.75)"
+            xlink:href="img/logo.png"
+          />
+        </g>
+        <g id="pointing">
+          <polygon
+            class="cls-1"
+            points="114.51 133.8 131.74 60.09 148.46 133.8 131.74 205.74 114.51 133.8"
+          />
+          <polygon
+            class="cls-2"
+            points="131.48 72.28 117.98 132.91 131.48 194.75 124.73 132.91 131.48 72.28"
+          />
+          <polygon
+            class="cls-2"
+            points="131.48 72.28 144.94 133.8 131.74 198.36 143.42 133.51 131.48 72.28"
+          />
+          <ellipse class="cls-3" cx="131.48" cy="135.32" rx="5.32" ry="5.84" />
+          <path
+            class="cls-4"
+            d="M176,182.57s3.68-1.79,2.79-5c0,0,2.56,7.79.14,9.74C178.88,187.32,174.56,185.06,176,182.57Z"
+            transform="translate(-48 -47.25)"
+          />
+          <path
+            class="cls-5"
+            d="M177.8,183.84s1.2-1.62,1-2.79C178.81,181.05,180.59,186.07,177.8,183.84Z"
+            transform="translate(-48 -47.25)"
+          />
+          <ellipse class="cls-6" cx="131.61" cy="135.62" rx="1" ry="1.1" />
+        </g>
+      </svg>
+    </div>
+    <nav class="navbar bground">
+      <ul class="nav-list">
+        <div class="logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 264 265.5"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #2c3d44;
+                }
+                .cls-2 {
+                  fill: #537076;
+                }
+                .cls-3 {
+                  fill: #ef4627;
+                }
+                .cls-4 {
+                  fill: #f36d2d;
+                }
+                .cls-5 {
+                  fill: #f79325;
+                }
+                .cls-6 {
+                  fill: #231f20;
+                }
+              </style>
+            </defs>
+            <g id="background">
+              <image
+                id="logo"
+                width="352"
+                height="354"
+                transform="scale(0.75)"
+                xlink:href="img/logo.png"
+              />
+            </g>
+            <g id="pointing">
+              <polygon
+                class="cls-1"
+                points="114.51 133.8 131.74 60.09 148.46 133.8 131.74 205.74 114.51 133.8"
+              />
+              <polygon
+                class="cls-2"
+                points="131.48 72.28 117.98 132.91 131.48 194.75 124.73 132.91 131.48 72.28"
+              />
+              <polygon
+                class="cls-2"
+                points="131.48 72.28 144.94 133.8 131.74 198.36 143.42 133.51 131.48 72.28"
+              />
+              <ellipse
+                class="cls-3"
+                cx="131.48"
+                cy="135.32"
+                rx="5.32"
+                ry="5.84"
+              />
+              <path
+                class="cls-4"
+                d="M176,182.57s3.68-1.79,2.79-5c0,0,2.56,7.79.14,9.74C178.88,187.32,174.56,185.06,176,182.57Z"
+                transform="translate(-48 -47.25)"
+              />
+              <path
+                class="cls-5"
+                d="M177.8,183.84s1.2-1.62,1-2.79C178.81,181.05,180.59,186.07,177.8,183.84Z"
+                transform="translate(-48 -47.25)"
+              />
+              <ellipse class="cls-6" cx="131.61" cy="135.62" rx="1" ry="1.1" />
+            </g>
+          </svg>
+        </div>
+        <li class="travelfam"><a href="#home">TRAVEL FAM</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+      <div class="rightnav">
+        <input type="text" name="search" id="search" />
+        <button class="btn">Search</button>
+      </div>
+    </nav>
+    <section class="background first-section">
+      <div class="box-main">
+        <div class="firsthalf">
+          <h2 class="textbig">Want to visit Uttarakhand?</h2>
+          <p class="textsmall">
+            You are at the correct place.<br />
+            Here are listed some of the grat locations to visit in Uttarakhand.
+          </p>
+          <div class="button">
+            <button class="btn"><a href="#places">Travel Guide</a></button>
+            <button class="btn"><a href="#ismap">See on Map</a></button>
+          </div>
         </div>
 
-    </nav>
-    <section class="background first-section ">
-            <div class="box-main">
-                <div class="firsthalf">
-                    <h2 class="textbig">Want to visit Uttarakhand?</h2>
-                    <p class="textsmall">You are at the correct place.<br>
-                        Here are listed some of the grat locations to visit  in Uttarakhand.
-                    </p>
-                         <div class="button">
-                                <button class="btn"><a href="#places">Travel Guide</a></button>
-                                <button class="btn"><a href="#ismap">See on Map</a></button>
-                         </div>
-                </div>
-
-                <div class="secondhalf">
-                    <img src="img/myimg.jpeg" alt="NEWIMAGE">
-                </div>
-            </div>
+        <div class="secondhalf">
+          <img src="img/myimg.jpeg" alt="NEWIMAGE" />
+        </div>
+      </div>
     </section>
     <section class="section" id="places">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">AULI</p>
-        <p class="sectionsubtag">Auli is a Himalayan ski resort and hill station in the north Indian state of Uttarakhand. It’s surrounded by coniferous and oak forests, plus the Nanda Devi and Nar Parvat mountains.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/auli.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag">
+          Auli is a Himalayan ski resort and hill station in the north Indian
+          state of Uttarakhand. It’s surrounded by coniferous and oak forests,
+          plus the Nanda Devi and Nar Parvat mountains.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/auli.jpg" alt="IMG" />
+      </div>
     </section>
 
     <section class="section left">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">CHAMOLI</p>
-        <p class="sectionsubtag textsmall">Chamoli is a beautiful town nestled in the Garhwal Himalayas of Uttarakhand. It is perched at an elevation of 1300 metres above sea level and is bedecked on the holy banks of river Alaknanda. The city offers a promising view of nature, woods, the rumbling creeks and the alpine hills. </p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/chamoli.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Chamoli is a beautiful town nestled in the Garhwal Himalayas of
+          Uttarakhand. It is perched at an elevation of 1300 metres above sea
+          level and is bedecked on the holy banks of river Alaknanda. The city
+          offers a promising view of nature, woods, the rumbling creeks and the
+          alpine hills.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/chamoli.jpg" alt="IMG" />
+      </div>
     </section>
 
     <section class="section">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">JIM CORBETT NATIONAL PARK</p>
-        <p class="sectionsubtag textsmall">Jim Corbett National Park, which is a part of the larger Corbett Tiger Reserve, a Project Tiger Reserve lies in the Nainital district of Uttarakhand. The magical landscape of Corbett is well known and fabled for its tiger richness.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/corbett.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Jim Corbett National Park, which is a part of the larger Corbett Tiger
+          Reserve, a Project Tiger Reserve lies in the Nainital district of
+          Uttarakhand. The magical landscape of Corbett is well known and fabled
+          for its tiger richness.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/corbett.jpg" alt="IMG" />
+      </div>
     </section>
     <section class="section left">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">MUSSOORIE</p>
-        <p class="sectionsubtag textsmall">Mussoorie is popularly known as The Queen of the Hills. The spectacular Gun Hill is among the most famous tourist attractions of Mussoorie. It is the second highest peak in the region after Lal Tibba.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/mussori.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Mussoorie is popularly known as The Queen of the Hills. The
+          spectacular Gun Hill is among the most famous tourist attractions of
+          Mussoorie. It is the second highest peak in the region after Lal
+          Tibba.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/mussori.jpg" alt="IMG" />
+      </div>
     </section>
     <section class="section">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">DEHRADUN</p>
-        <p class="sectionsubtag textsmall">Dehradun is a popular and preferred hill station in Uttarakhand. It boasts of the scenic backdrop of the Garhwal Himalayas that invites couples, families and solo travelers alike.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/dehradun.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Dehradun is a popular and preferred hill station in Uttarakhand. It
+          boasts of the scenic backdrop of the Garhwal Himalayas that invites
+          couples, families and solo travelers alike.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/dehradun.jpg" alt="IMG" />
+      </div>
     </section>
     <section class="section left">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">LANDSDOWNE</p>
-        <p class="sectionsubtag textsmall">The place is highly scenic and perfect for a quick weekend getaway. Lansdowne is one of the quietest hill stations of India and is popular since the British came to India. </p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/landsdowne.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          The place is highly scenic and perfect for a quick weekend getaway.
+          Lansdowne is one of the quietest hill stations of India and is popular
+          since the British came to India.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/landsdowne.jpg" alt="IMG" />
+      </div>
     </section>
     <section class="section">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">KASAR DEVI TEMPLE</p>
-        <p class="sectionsubtag textsmall">Kasar Devi Temple is a famous Hindu shrine which sits high at an altitude of 2,116 metres above sea level. The Hill top provides beautiful scene of the valley and Himalayas that make it a place suitable for photography. Temple has a magnetic aura auround it such that the person visiting there feels calm and relax. </p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/kasar.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Kasar Devi Temple is a famous Hindu shrine which sits high at an
+          altitude of 2,116 metres above sea level. The Hill top provides
+          beautiful scene of the valley and Himalayas that make it a place
+          suitable for photography. Temple has a magnetic aura auround it such
+          that the person visiting there feels calm and relax.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/kasar.jpg" alt="IMG" />
+      </div>
     </section>
     <section class="section left">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">RISHIKESH</p>
-        <p class="sectionsubtag textsmall">Rishikesh is a city in India’s northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered holy, and the city is renowned as a center for studying yoga and meditation.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/rishikesh.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Rishikesh is a city in India’s northern state of Uttarakhand, in the
+          Himalayan foothills beside the Ganges River. The river is considered
+          holy, and the city is renowned as a center for studying yoga and
+          meditation.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/rishikesh.jpg" alt="IMG" />
+      </div>
     </section>
     <section class="section">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">NAINITAL</p>
-        <p class="sectionsubtag textsmall">Nainital is a Himalayan resort town in the Kumaon region of India’s Uttarakhand state, at an elevation of roughly 2,000m. Formerly a British hill station, it’s set around Nainital Lake, a popular boating site with Naina Devi Hindu Temple on its north shore.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/nainital.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Nainital is a Himalayan resort town in the Kumaon region of India’s
+          Uttarakhand state, at an elevation of roughly 2,000m. Formerly a
+          British hill station, it’s set around Nainital Lake, a popular boating
+          site with Naina Devi Hindu Temple on its north shore.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/nainital.jpg" alt="IMG" />
+      </div>
     </section>
 
     <section class="section left">
-        <div class="paras">
+      <div class="paras">
         <p class="sectiontag bigtxt">HARIDWAR</p>
-        <p class="sectionsubtag textsmall">Haridwar is an ancient city and important Hindu pilgrimage site in North India's Uttarakhand state, where the River Ganges exits the Himalayan foothills.</p>
-        </div>
-              <div class="thumbnail">
-                  <img class="imgfluid" src="img/haridwar.jpg" alt="IMG">
-              </div>
+        <p class="sectionsubtag textsmall">
+          Haridwar is an ancient city and important Hindu pilgrimage site in
+          North India's Uttarakhand state, where the River Ganges exits the
+          Himalayan foothills.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img class="imgfluid" src="img/haridwar.jpg" alt="IMG" />
+      </div>
     </section>
-    <br>
+    <br />
 
     <section class="mapcontent">
-        <h1 class="ffamily" id="ismap">Map</h1>
-        <p class="maptxt">The respective locations are shown in the map below:</p>
-    <div class="mymap"> 
-    <iframe src="https://www.google.com/maps/d/embed?mid=18hkU4NtcUDREE3EI1S6e0fqPzk3SEQEk" width="640" height="480"></iframe>
-    </div>
-</section>
-    <footer class="text-footer bground" > 
-        <p>
-        Copyright &copy; 2021- All rights reserved.<br>
+      <h1 class="ffamily" id="ismap">Map</h1>
+      <p class="maptxt">The respective locations are shown in the map below:</p>
+      <div class="mymap">
+        <iframe
+          src="https://www.google.com/maps/d/embed?mid=18hkU4NtcUDREE3EI1S6e0fqPzk3SEQEk"
+          width="640"
+          height="480"
+        ></iframe>
+      </div>
+    </section>
+    <footer class="text-footer bground">
+      <p>
+        Copyright &copy; 2021- All rights reserved.<br />
         Designed by Neeraj Sati
-        </p>
+      </p>
     </footer>
-</body>
-</html>
 
+    <
+  </body>
+</html>
