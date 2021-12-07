@@ -248,12 +248,13 @@ textarea {
   text-align: center;
   color: white;
   height: 30px;
-
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 14px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+   position: fixed;
+   bottom: 0;
+  width: 100%;
 }
 
 .loader-svg-container {
